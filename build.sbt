@@ -6,3 +6,5 @@ lazy val root = (project in file("."))
   .settings(
     name := "ScalaPlanExec"
   )
+
+libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.2.11"

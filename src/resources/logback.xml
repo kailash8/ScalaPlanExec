@@ -1,0 +1,20 @@
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} TKD [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>/tmp/ScalaPlanExec.log</file> <!--at this location, we will store all the result.-->
+        <append>true</append> <!--to stop appending log in directory file set false-->
+        <encoder>
+            <pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} TKD [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="STDOUT"/>  <!--To see logs in console-->
+        <!--<appender-ref ref="FILE"/>--> <!--To save logs in local file-->
+    </root>
+</configuration>
