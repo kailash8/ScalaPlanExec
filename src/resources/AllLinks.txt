@@ -1,0 +1,6 @@
+-> Book type scala hands on projects.
+https://www.handsonscala.com/
+-> Really good examples of scala, brilliant github repo.
+https://www.baeldung.com/scala/
+-> We can directly get the example of any import class here, just search that import.
+https://www.programcreek.com/scala/org.apache.log4j.Logger

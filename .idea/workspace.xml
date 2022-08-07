@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69f230c5-4805-4910-af00-dd4d80969c37" name="Changes" comment="Committing new project">
-      <change beforePath="$PROJECT_DIR$/.attach_pid3752" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid12014" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/collections/HandsOnScalaSite.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/AllLinks.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +76,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "vcs.Perforce"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -83,7 +84,20 @@
       <recent name="oop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TuplesAndMaps">
+  <component name="RunManager" selected="Application.HandsOnScalaSite">
+    <configuration name="HandsOnScalaSite" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="collections.HandsOnScalaSite" />
+      <module name="ScalaPlanExec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoggingSlf4j" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="errorLogging.LoggingSlf4j" />
       <module name="ScalaPlanExec" />
@@ -143,34 +157,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scala.errorLogging.TestObject" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.errorLogging.TestObject" />
-      <module name="ScalaPlanExec" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scala.errorLogging.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.scala-run" />
+      <item itemvalue="Application.HandsOnScalaSite" />
       <item itemvalue="Application.TuplesAndMaps" />
       <item itemvalue="Application.Sequences" />
       <item itemvalue="Application.LoggingSlf4j" />
       <item itemvalue="Application.SaveLogFileInLocal" />
-      <item itemvalue="Application.scala.errorLogging.TestObject" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HandsOnScalaSite" />
         <item itemvalue="Application.TuplesAndMaps" />
         <item itemvalue="Application.Sequences" />
         <item itemvalue="Application.LoggingSlf4j" />
         <item itemvalue="Application.SaveLogFileInLocal" />
-        <item itemvalue="Application.scala.errorLogging.TestObject" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659883500106</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Committing new project">
+      <created>1659890193420</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659890193420</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
