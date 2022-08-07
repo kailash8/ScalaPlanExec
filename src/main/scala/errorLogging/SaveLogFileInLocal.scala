@@ -10,11 +10,11 @@ object SaveLogFileInLocal {
     def logger = LoggerFactory.getLogger(this.getClass)
 
     println("Hi test successful...!")
-    var key = 1
-    var value = 2
+    val key: Int = 1
+    val value: Int = 2
 
     //UnComment below line before trying to save log file in local directory.
-    StatusPrinter.print((LoggerFactory.getILoggerFactory.asInstanceOf[LoggerContext]))
+    StatusPrinter.print(LoggerFactory.getILoggerFactory.asInstanceOf[LoggerContext])
     logger.info("logging key here {} and value here {} ", key, value)
   }
 
