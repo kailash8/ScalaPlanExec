@@ -7,7 +7,7 @@ project/boot/
 
 # scala ID Specific
 
-.scala_dependencies
+.scala_dependencies/
 .bsp/
 .idea/
 project/
