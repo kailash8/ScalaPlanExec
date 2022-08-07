@@ -7,8 +7,8 @@ object LoggingSlf4j {
   def main(args: Array[String]): Unit = {
     def logger = LoggerFactory.getLogger(this.getClass)
 
-    var key = 1
-    var value = 2
+    val key: Int = 1
+    val value: Int = 2
     logger.info("logging key here {} and value here {} ", key, value)
   }
 
